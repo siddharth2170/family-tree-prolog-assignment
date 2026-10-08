@@ -188,8 +188,8 @@ p.paragraph_format.line_spacing = 2
 p.paragraph_format.space_after = Pt(0)
 r = p.add_run("GitHub repository: ")
 set_font(r, bold=True)
-r = p.add_run("REPLACE WITH YOUR GITHUB REPOSITORY URL BEFORE SUBMISSION")
-set_font(r, bold=True)
+r = p.add_run("https://github.com/siddharth2170/family-tree-prolog-assignment")
+set_font(r)
 
 add_heading("Appendix A")
 add_centered("Prolog Source Code", bold=True)
